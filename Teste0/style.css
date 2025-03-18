@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, rgba(113, 188, 253, 0.671), rgba(0, 0, 0, 0.463));
+    font-family: cursive;
+    
+
+}
+h1{
+    text-align: center;
+    color: darkblue;
+    font-size: 3em;
+    
+
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+div{
+    color: brown;
+    text-align: center;
+}
+div > p{
+    display: none;
+    text-align: center;
+}
+div:hover > p{
+    display: block;
+    color: brown;
+}
+a:hover{
+    color: rgb(255, 183, 0);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+
+}
